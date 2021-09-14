@@ -1,0 +1,219 @@
+.wrapper {
+    position: absolute;
+    top: 10%;
+    left: 30%;  
+  }
+  
+  .head {
+    position: relative;
+    width: 400px;
+    height: 350px;
+    z-index: 1;
+    border: 2px solid black;
+    background-color: red;
+    border-radius: 100em;
+  }
+  
+  .head2 {
+    position: relative;
+    width: 80px;
+    height: 50px;
+    z-index: 1;
+    top: -20px;
+    left: 110px;
+    border: 2px solid black;
+    background-color: red;
+    border-radius: 100em;
+  }
+  
+  .right-eye {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    z-index: 2;
+    top: -80px;
+    left: 225px;
+    border-radius: 100px 50px;
+    background-color: black;
+  }
+  
+  .righteye {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    z-index: 2;
+    top: -20px;
+    left: 45px;
+    border-radius: 100px 50px;
+    background-color: black;
+  }
+  
+  #right-pupil {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    z-index: 3;
+    border: 1px solid white;
+    background-color: white;
+    top: 65px;
+    left: 30px;
+    border-radius: 100px;
+  }
+  
+  #rightpupil {
+    position: relative;
+    width: 5px;
+    height: 5px;
+    z-index: 3;
+    border: 1px solid white;
+    background-color: white;
+    top: 15px;
+    left: 5px;
+    border-radius: 100px;
+  }
+  
+  .left-eye {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    z-index: 2;
+    border: 1px solid black;
+    top: 64px;
+    left: 32px;
+    background-color: black;
+    border-radius: 50px 100px;
+  }
+  
+  .lefteye {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    z-index: 2;
+    border: 1px solid black;
+    top: 7px;
+    left: 10px;
+    background-color: black;
+    border-radius: 50px 100px;
+  }
+  
+  #left-pupil {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    z-index: 3;
+    border: 1px solid white;
+    background-color: white;
+    top: 65px;
+    left: 50px;
+    border-radius: 100px;
+  }
+  
+  #leftpupil {
+    position: relative;
+    width: 5px;
+    height: 5px;
+    z-index: 3;
+    border: 1px solid white;
+    background-color: white;
+    top: 15px;
+    left: 15px;
+    border-radius: 100px;
+  }
+  
+  .body {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    z-index: 0;
+    background-color: red;
+    top: -25px;
+    left: 50px;
+    border-radius: 50px 50px 0px 0px;
+  }
+  
+  .left-stripe {
+    position: relative;
+    width: 25px;
+    height: 300px;
+    left: 10px;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 99px 0px 0px;
+  }
+  
+  .right-stripe {
+    position: relative;
+    width: 25px;
+    height: 300px;
+    top: -300px;
+    left: 265px;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 0px 99px 0px 0px;
+  }
+  
+  .left-arm {
+    position: relative;
+    width: 60px;
+    height: 260px;
+    top: -620px;
+    left: -90px;
+    border: 1px none solid solid solid black;
+    background-color: red;
+    z-index: -1;
+    border-radius: 100px 100px 0px 0px;
+    transform: rotate(45deg);
+  }
+  
+  .right-arm {
+    position: relative;
+    width: 60px;
+    height: 260px;
+    top: -890px;
+    left: 320px;
+    z-index: -1;
+    background-color: red;
+    border: 1px none black;
+    border-radius: 100px 100px 0px 0px;
+    transform: rotate(315deg);
+  }
+  
+  .belt {
+    position: relative;
+    width: 300px;
+    height: 25px;
+    top: -835px;
+    border: 1px solid black;
+    background-color: black;
+  }
+  
+  .buckle {
+    
+  }
+  
+  .left-hand {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    top: -971px;
+    left: -190px;
+    z-index: -2;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 100px;
+  }
+  
+  .right-hand {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    top: -1040px;
+    left: 420px;
+    z-index: -2;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 100px;
+  }
